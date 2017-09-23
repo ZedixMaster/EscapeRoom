@@ -1,1 +1,1 @@
-rm_name = rm_leftwall
+trans_dir = Trans_Dir.left;

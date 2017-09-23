@@ -1,1 +1,0 @@
-rm_name = rm_leftwall
