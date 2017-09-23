@@ -1,6 +1,8 @@
 /// @description Make some inventory babies.
 globalvar items;
 
+enum inventory_type { bucket, valve, box };
+
 // We have three items
 for (i=0; i<3; i++) {
 	items[i] = instance_create_layer(
