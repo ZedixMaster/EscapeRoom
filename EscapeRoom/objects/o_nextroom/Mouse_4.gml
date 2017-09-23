@@ -1,2 +1,2 @@
 /// @description Go to room
-state = Trans_State.out;
+room_goto(rm_name);
