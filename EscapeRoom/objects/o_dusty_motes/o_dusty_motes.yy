@@ -5,7 +5,7 @@
     "name": "o_dusty_motes",
     "eventList": [
         {
-            "id": "5085bf4c-3f4a-44ce-ae90-7d8ebf2bb354",
+            "id": "23ca1120-3649-4f3d-ae37-767f041fa8af",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "33c9e933-6518-4d19-a783-39e19870c6ee"
         },
         {
-            "id": "3273f538-c01a-4400-96ac-941f2172b364",
+            "id": "b1f439de-42da-46cf-9781-acaf239fc623",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -27,7 +27,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,

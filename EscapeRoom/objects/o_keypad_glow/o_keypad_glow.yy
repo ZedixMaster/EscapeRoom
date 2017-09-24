@@ -5,7 +5,7 @@
     "name": "o_keypad_glow",
     "eventList": [
         {
-            "id": "e87c5d41-0cdd-4133-a4d4-7c3f31c01be6",
+            "id": "d7d5c55a-a059-4f08-86ec-ccfaa8b599a9",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "912af55d-6b97-4293-8bbf-49813dd09afc"
         },
         {
-            "id": "87818d13-a8a7-4a79-9688-5fc182674fe7",
+            "id": "a0dbcb31-a369-42f7-9ee1-e5279c5b6a29",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

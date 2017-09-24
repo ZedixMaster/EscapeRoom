@@ -2,6 +2,10 @@
 /** -------------------------------------------------------------------------------------*
 *   It draws the text box...
 *   -------------------------------------------------------------------------------------*/
+if ((message_length == -1)) {
+	return;
+}
+
 image_alpha  = textbox_fade_in / 1;
 image_xscale = orig_xscale + textbox_fade_in * 16;
 image_yscale = orig_yscale + textbox_fade_in * 3;

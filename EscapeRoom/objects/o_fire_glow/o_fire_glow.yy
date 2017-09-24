@@ -5,7 +5,7 @@
     "name": "o_fire_glow",
     "eventList": [
         {
-            "id": "0b41ce35-5758-444e-81ce-c278addd9e8c",
+            "id": "cc2ffc2a-ad80-4d39-b304-62b1bf596bb2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,7 +15,7 @@
             "m_owner": "c3e0f308-ef46-4cce-8acd-65a9098f7dee"
         },
         {
-            "id": "41d6862c-b7c4-4c06-b26a-f8b46de98089",
+            "id": "3799bb00-2678-4862-abde-0d226bdd52d4",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,

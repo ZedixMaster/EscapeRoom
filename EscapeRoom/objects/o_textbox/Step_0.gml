@@ -14,6 +14,16 @@
 *   :)
 *   -------------------------------------------------------------------------------------*/
 
+if (message == []) {
+	return
+}
+
+if (message_length == -1) {
+	message_length = array_length_1d(message);
+	current_message_length = string_length(message[message_index]);
+	current_message_height = string_height(message[message_index]);
+}
+
 // TODO add noise per char...
 textbox_fade_in = lerp(0,1, lerp_scaler);
 

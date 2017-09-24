@@ -1,7 +1,7 @@
 /// @description Fly my pretties
 particle++;
 
-if ( particle % 15 == 0) {
+if ( particle % 5 == 0) {
 	repeat(1) {
 	    var xx = 20 + random(room_width);
 	    var yy = 20 + random(room_height);
