@@ -1,4 +1,5 @@
 /// @description Fire Glow
+global.fireplaceIsDead = false;
 particle = 0;
 global.P_System=part_system_create();
 global.ParticleFireGlow=part_type_create();

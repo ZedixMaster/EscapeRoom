@@ -13,6 +13,6 @@ switch(index) {
 		if (active)
 			draw_sprite_ext(s_inv_ky, 0, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 		else
-			draw_sprite_ext(s_box, 0, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
+			draw_sprite_ext(s_inv_bx, 0, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
 		break;
 }

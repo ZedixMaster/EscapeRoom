@@ -1,4 +1,7 @@
 /// @description Fireh
+if ( global.fireplaceIsDead )
+	return; 
+	
 particle++;
 
 if ( particle % 5 == 0) {
