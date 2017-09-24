@@ -9,7 +9,7 @@ state=Trans_State.none;
 trans_dir = Trans_Dir.left; //Doesn't matter.
 
 timer=0;
-transition_length=room_speed/4;
+transition_length=room_speed/2;
 rm_name = noone;
 transition_x=0;
 transition_y=0;

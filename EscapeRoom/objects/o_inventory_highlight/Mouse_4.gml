@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(global.showingText)
+	return;
 switch(target_obj) {
 	case o_bucket: {
 		instance_destroy(o_bucket);
@@ -23,3 +25,6 @@ switch(target_obj) {
 		break;
 	}
 }
+
+scr_make_textbox(message)
+audio_play_sound(a_pickup, 4, false);

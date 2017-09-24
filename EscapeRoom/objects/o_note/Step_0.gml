@@ -4,9 +4,13 @@ if (lerp_scaler < 1) {
 	note_fade_in = lerp(0,1, lerp_scaler);
 } else if (!shown){
 	note_fade_in = 1;
-	message[0] = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
-	message[1] = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).";
-	message[2] = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.";
+	message[0] = "Dear Friend -------------------------------------------------------------------- 4/31/12";
+	message[1] = "I found myself trapped inside of a cabin, I'm not sure how to escape, but thinking back... maybe I'm you and maybe you're me...";
+	message[2] = "I realized today I have a condition, I sometimes get blackness around my eyes, it begins to fade but.. I realize I'm just moving somewhere.";
+	message[3] = "I'm not sure I understand excatly what's going on but I know this isn't...right. I need to get out of here, but there door won't budge.";
+	message[4] = "I suppose I will look for clues or something... I just wish I could remember how I got here or what happened before I awoke here.";
+	message[5] = "            -------------------------------------------------------------------- Anon...";
 	shown = true;
-	scr_make_textbox(message)
+	global.noteIsShown = true;
+	scr_make_textbox(message);
 }

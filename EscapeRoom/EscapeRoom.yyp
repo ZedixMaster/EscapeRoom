@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "027282f2-2303-478c-9d02-f4a1d626b315",
+            "Value": {
+                "id": "f55ea0ae-9a15-4bce-b184-0884ad473a80",
+                "resourcePath": "sprites\\s_corrupt_numbers\\s_corrupt_numbers.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "035633ba-bfa1-4641-acea-3f67f53355d9",
             "Value": {
                 "id": "ef7403fb-d414-43d1-a7f3-c75e02d350cf",
@@ -51,6 +59,14 @@
             "Value": {
                 "id": "327b6de0-d3de-457e-aff7-723409614547",
                 "resourcePath": "objects\\o_inventory_item\\o_inventory_item.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0728d23e-6604-4ff5-8614-aaa840d58dcc",
+            "Value": {
+                "id": "ec8e2bac-c7c8-4475-a9c1-bdbfd06ff008",
+                "resourcePath": "objects\\o_keypad_working\\o_keypad_working.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -76,6 +92,30 @@
                 "id": "ce645617-e10a-4b07-9497-371fb4e9402f",
                 "resourcePath": "views\\098d16ed-a973-47e9-9857-6370c3d35dc0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "0a9e37ba-d433-4d22-a378-c46e1c74f216",
+            "Value": {
+                "id": "a716846b-47e7-4615-a018-9d383c9e40a3",
+                "resourcePath": "sprites\\s_textbox\\s_textbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0b3afaa3-28f3-4802-9c38-b904e1b902d2",
+            "Value": {
+                "id": "97b9c38b-1edd-45a4-bf20-f60159878039",
+                "resourcePath": "sprites\\s_keypad_working\\s_keypad_working.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "10978f90-5a09-4e4f-82a6-6ca3fd3fbd3f",
+            "Value": {
+                "id": "6eea445e-141d-441b-b696-d161960e7ad5",
+                "resourcePath": "objects\\o_keypad_buttons\\o_keypad_buttons.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -183,6 +223,14 @@
             }
         },
         {
+            "Key": "37d7389e-1a00-4d68-95c2-46824f8315aa",
+            "Value": {
+                "id": "25238389-84ff-4007-83ad-bcc315648bb7",
+                "resourcePath": "sprites\\s_numbers\\s_numbers.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3884fedf-55a3-4ca7-a282-1fdde9fc0bc0",
             "Value": {
                 "id": "30327cea-4c5e-42a5-9bf5-242ede49f538",
@@ -247,19 +295,19 @@
             }
         },
         {
-            "Key": "48dace80-ee01-43e7-aaa7-7ee36b3f00a9",
-            "Value": {
-                "id": "d58ef258-21f3-4700-8d57-41fffb0136ca",
-                "resourcePath": "sprites\\s_textbox\\s_textbox.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "494ec908-ed4a-4dcd-ac32-e672d8e2e2b6",
             "Value": {
                 "id": "ec779d42-b9c9-47d6-9ecf-32d48d1b5815",
                 "resourcePath": "sprites\\s_restart\\s_restart.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4cef6fca-3a70-46bb-a81d-ddc88aaa7368",
+            "Value": {
+                "id": "f068f8a7-5765-4482-a22f-5616aecb5020",
+                "resourcePath": "objects\\o_keypad_numbers\\o_keypad_numbers.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -292,6 +340,14 @@
                 "id": "59803a43-262f-43f3-b228-96e8d7a21691",
                 "resourcePath": "scripts\\scr_use_inventory_item\\scr_use_inventory_item.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "586f64ad-ef97-4bc7-bd40-9c2a0f1f0491",
+            "Value": {
+                "id": "3be2e3b2-fff7-4cb9-9892-358610b61baf",
+                "resourcePath": "sounds\\a_puzzle\\a_puzzle.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -340,6 +396,14 @@
                 "id": "e32856a1-aa78-49f9-a528-a6d22833d161",
                 "resourcePath": "objects\\o_inventory_highlight\\o_inventory_highlight.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6f723a9a-2c3c-4064-8fa3-c5e1c98dc6b1",
+            "Value": {
+                "id": "2df930cb-a275-4d63-adfb-df369e5dcc00",
+                "resourcePath": "views\\6f723a9a-2c3c-4064-8fa3-c5e1c98dc6b1.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -423,6 +487,14 @@
             }
         },
         {
+            "Key": "8c36c724-f350-45ab-ba70-373f214a67f0",
+            "Value": {
+                "id": "f1da5294-6090-44cf-94d5-d01a99644eb0",
+                "resourcePath": "sprites\\s_keypad_picture\\s_keypad_picture.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8fcf65c0-5bfa-4b25-8648-bfd8163a03f8",
             "Value": {
                 "id": "09b05d30-a388-4f1c-a5be-d12f4c945c22",
@@ -463,6 +535,14 @@
             }
         },
         {
+            "Key": "94d67929-5797-4f28-88a9-05c87df788ae",
+            "Value": {
+                "id": "650e9370-18ec-46bb-880f-18a12ea24a39",
+                "resourcePath": "sounds\\a_type_writer\\a_type_writer.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "95cbeaeb-aa35-40a7-9baf-40769545480a",
             "Value": {
                 "id": "0bd18157-cd0d-4f9e-bd45-603e8c5a5e21",
@@ -495,11 +575,27 @@
             }
         },
         {
+            "Key": "a26383fd-6b05-468c-8cee-2cf35ece7831",
+            "Value": {
+                "id": "b508f7f2-b57f-4249-9a43-06fc48ad3542",
+                "resourcePath": "objects\\o_keypad_showing\\o_keypad_showing.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a4d2ef1b-020d-43fd-bf22-0cf5d1727133",
             "Value": {
                 "id": "af96aac4-adba-48fa-963b-f98f4b320494",
                 "resourcePath": "views\\a4d2ef1b-020d-43fd-bf22-0cf5d1727133.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a5724b85-3ec7-436e-8167-8b280d731aae",
+            "Value": {
+                "id": "cfec8e12-db05-49ce-a641-a47ee25405ba",
+                "resourcePath": "sounds\\a_keypad\\a_keypad.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -516,6 +612,22 @@
                 "id": "3a4df389-b20e-4262-bcf8-8edfb33a0d27",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a94372ff-2884-4700-9312-7bbef0cde5a3",
+            "Value": {
+                "id": "a0f7bbe9-24bd-4f86-a235-3af7056bd9d6",
+                "resourcePath": "objects\\o_keypad\\o_keypad.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "aad1f132-9b5f-4a9d-973d-ccd809bf45b1",
+            "Value": {
+                "id": "72fbddc3-c956-408c-89a4-979e28edbec9",
+                "resourcePath": "sounds\\a_pickup\\a_pickup.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -556,6 +668,14 @@
                 "id": "b280ae40-66fc-4ada-84e6-f417fe5aea67",
                 "resourcePath": "objects\\o_pipe\\o_pipe.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b9a51448-bbf8-4cd4-9ae1-32e048dab46c",
+            "Value": {
+                "id": "60973182-c0f1-44ef-9ccf-f50e12bf6ba0",
+                "resourcePath": "sounds\\a_bg_music\\a_bg_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -607,11 +727,27 @@
             }
         },
         {
+            "Key": "cf005369-894b-4aab-ac1e-f8272480bf68",
+            "Value": {
+                "id": "166edfcd-9d04-4785-a50a-703886bc2c0c",
+                "resourcePath": "rooms\\rm_win\\rm_win.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "d0928de8-d2f2-45cd-bbf7-ffbf6792b4e3",
             "Value": {
                 "id": "c0b88602-d7db-419e-9532-b8f66e9a1f54",
                 "resourcePath": "objects\\o_unlitfire\\o_unlitfire.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d3c5a948-4f1d-43a3-ad51-884b4fab6568",
+            "Value": {
+                "id": "fc7a38a2-d265-4098-92f1-be47f5fe7f24",
+                "resourcePath": "sprites\\s_note\\s_note.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -636,6 +772,14 @@
                 "id": "e2aa91e2-6f3d-4233-8102-a968fe946072",
                 "resourcePath": "views\\e223fc25-cdce-4229-9704-9e0601691e53.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e49f8529-586a-439e-8b17-79978558d5e8",
+            "Value": {
+                "id": "bd8f8e7f-5fe6-4672-a026-fca3a2f9aa05",
+                "resourcePath": "sprites\\s_keypadButtons\\s_keypadButtons.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

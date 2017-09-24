@@ -8,9 +8,9 @@ condition = false;
 switch(my_inventory_type) {
 	case inventory_type.box: {
 		if ( global.items[inventory_type.box].used ) {
-			message[0] = "The box is burning, but now it's to hot to get ... ";
+			message[0] = "The box is burning, but now it's too hot to get ... Maybe I should just, try, to, grab it, OW!";
 			if ( global.items[inventory_type.bucket].acquired && global.items[inventory_type.bucket].active )
-				message[1] = "Hey, now I can put out the fire and not have a useless bucket of water, swoon.";
+				message[1] = "Oh yeah! This bucket of water will REALLY come in handy!";
 
 			old_inventory_type = my_inventory_type;
 			my_inventory_type = inventory_type.bucket;
@@ -20,9 +20,9 @@ switch(my_inventory_type) {
 	}
 	case inventory_type.valve: {
 		if ( global.items[inventory_type.valve].used ) {
-			message[0] = "Um... running water, cool ?";
+			message[0] = "Okay now I got running water.";
 			if ( global.items[inventory_type.bucket].acquired )
-				message[1] = "Bet I can fill up with this bucket if I click it again... oh no, did I just break the fourth wall?";
+				message[1] = "It's like this bucket was MADE for this purpose.";
 
 			old_inventory_type = my_inventory_type;
 			my_inventory_type = inventory_type.bucket;

@@ -24,7 +24,6 @@ if (message_length == -1) {
 	current_message_height = string_height(message[message_index]);
 }
 
-// TODO add noise per char...
 textbox_fade_in = lerp(0,1, lerp_scaler);
 
 // Fading in
@@ -34,8 +33,10 @@ if (lerp_scaler < 1) {
 	textbox_fade_in = 1;
 
 	if (chars_drawn < current_message_length) {
+		audio_play_sound(a_type_writer, 5, false);
+
 		// If holding down speed up, otherwise feed chars normally.
-		message_speed   = keyboard_check(ord(hold_down_char));
+		message_speed   = mouse_button = mb_right;
 		chars_drawn    += (1 + message_speed * 2) + breaked_this_many_times;
 
 		// Do we need to word wrap?
@@ -59,7 +60,7 @@ if (lerp_scaler < 1) {
 	} 
 	else {
 		// If we have another message continue, otherwise suicide.
-		if (keyboard_check_pressed(ord(hold_down_char))) {
+		if (mouse_button = mb_left) {
 			if (message_index < message_length - 1) {
 				message_index += 1;
 				current_message_length = string_length(message[message_index]);
@@ -70,6 +71,15 @@ if (lerp_scaler < 1) {
 				breaked_this_many_times = 0;
 			} else {
 				global.showingText = false;
+				if ( global.noteIsShown ) {
+					global.noteIsShown = false;
+					instance_destroy(o_note);
+				} else if ( global.keypad_text ) {
+					global.keypad_text = false;
+					scr_make_textbox(message);
+					instance_create_layer(0, 0, "Instances", o_keypad_showing);
+					global.keypad_shown = true;
+				}
 				instance_destroy();
 			}
 		}
