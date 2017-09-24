@@ -70,6 +70,7 @@ else {
 			last_break_index = 0;
 			breaked_this_many_times = 0;
 		} else {
+			global.showingText = false;
 			instance_destroy();
 		}
 	}

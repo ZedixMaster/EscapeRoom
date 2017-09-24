@@ -3,4 +3,5 @@ orig_xscale = 0;
 orig_yscale = 0;
 orig_x      = x;
 orig_y      = y;
-lerp_scaler = 0
+lerp_scaler = 0;
+shown       = false;

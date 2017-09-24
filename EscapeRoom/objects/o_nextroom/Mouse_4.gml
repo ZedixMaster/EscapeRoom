@@ -1,4 +1,6 @@
 /// @description Go to room
+if (global.showingText)
+	return;
 switch(room) {
 	case rm_backwall: {
 		if(trans_dir == Trans_Dir.left) {

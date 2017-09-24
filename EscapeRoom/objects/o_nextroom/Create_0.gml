@@ -1,6 +1,6 @@
 /// @description Initialize
 image_speed = 0;
-
+global.showingText = false;
 
 ///Transition Stuff
 enum Trans_Dir{left,right};
